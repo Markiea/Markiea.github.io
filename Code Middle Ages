@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="history site by Markie Chancellor" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="styles.css." type="text/css" rel="stylesheet" />
+<!--HEAD-->
+<head>
+    <title>Medieval History Museum</title>
+
+
+
+    <script> alert("Welcome to Our Museum. Our new fall-winter hours are 1pm-7pm Wednesday -Saturday.");
+    /* This is a Dialog box which tell our new hours. With our new collection we are offering extended
+    hours. */
+  </script>
+  <script> var answer = prompt ('Who is the most famous medieval female figure in European history?');
+if( answer == 'Joan of Arc' || 'Joan') {document.write("That is Right!");}
+// This is a cute prompt to ask the user a question relating to History //
+
+
+</script>
+</head>
+<!--HEAD-->
+
+<!--<bodY-->
+
+
+
+
+  <body id="Introduction">
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="Medieval Muesum" href="#table">Medieval Museum</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#Introduction">Introduction<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Europe During the Middle Ages">Europe</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Women's Roles">Gender Studies</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#Subscribe" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#music">music</a>
+          <a class="dropdown-item" href="#subscribe">subscribe</a>
+          <a class="dropdown-item" href="#Lecture">Lecture</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--end of nav bar -->
+
+<!--hero-->
+    <div class="container">
+      <div class="p-3 mb-2 bg-primary text-black">
+ <h1 class="display-1">  </h1>
+ <div class="jumbotron">
+   <h1 class="display-4">The Medieval Museum: Women of the Middle Ages</h1>
+   <p class="lead"> <p class="text-center">A new exhibit by the Medieval Insitute.</p>
+   <hr class="my-4">
+   <p class="text-center"> October - January 2019.</p>
+   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+ </div>
+
+<!--end of hero-->
+<div id="quoteDisplay">
+
+
+  </div>
+  <button onclick="newQuote()">New Quote
+  </button>
+  <script>
+var quotes = [
+    'Hildegard von Bingen: “When the words come, they are merely empty shells without the music. They live as they are sung,  the words are the body and the music the spirit.',
+
+    'Taqî ad Dîn Aḥmad ibn Taymiyyah: “Don’t depend too much on anyone in this world because even your own shadow leaves you when you are  darkness.',
+   'Isidore  Seville: “Letters are signs of things, symbols of words, whose power is so great that without a voice they speak to us the words of the absent; for they introduce words by the eye, not by the ear.',
+    'Christine de Pizan: “If it were customary to send maidens to school and teach them the same subjects as are taught to boys, they would learn just as fully and would understand the subtleties of all arts and sciences.',
+
+'The Saga of Grettir the Strong: “A tale is but half told when only one person tells it.',
+
+'Ibn Sīnā (Avicenna): The world is divided into men who have wit and no religion and men who have religion and no wit.'
+
+    ]
+function newQuote () {
+    var randomNumber = Math.floor(Math.random() * (quotes.length));
+    document.getElementById('quoteDisplay').innerHTML =quotes[randomNumber];
+}
+
+</script>
+
+
+<!--timeline-->
+    <aside>
+    </div>
+        <div class="row">
+  			<p class="lead"> The <dfn>Middle Ages </dfn> were a period of European history from the fall of the Roman Empire in the West (5th century) to the fall of Constantinople (1453), or, more narrowly, from c. 1100 to 1453. </p>
+          </aside>
+        </div>
+</div>
+  		  <div class="col"> <ul>
+  			 <li>Middle Ages </li>
+  			 <ul>
+  				 <li> Early Middle Ages </li>
+  				 <li> High Middle Ages </li>
+  				 <li> Late Middle Ages </li>
+  			 </ul>
+
+<br />
+
+<!--<table-->
+
+</table>
+  <table class="table table-bordered table-dark table-hover">
+    <thead>
+  	<tr>
+  		<th scope="col"></th>
+  		<th scope="col"> Early</th>
+  		<th scope="col"> High</th>
+  		<th scope="col"> Late</th>
+  	</tr>
+  	<tr>
+  		<th scope="row"> Time Period </th>
+  		<td > 400-1000</td>
+  		<td> 1000-1300 </td>
+  		<td> 1300-1500 </td>
+  	</tr>
+  </tbody>
+  </table>
+
+  </div>
+  <!-- End table Start Text Here -->
+  <body>
+
+  <div class="col">
+    <h1 class="mb--4" id="Introduction"> Introduction</h1>
+    <p> To start out this discussion, attention will be given to a aristocrat woman of the middle ages. This will give context to the topic of the lives of medivel women, but since its of a wealthy woman it is balently and insightfully limited. <b> Adelaide of Leuven </b> died <abr After Death> A.D</abr> 1158 was the wife of Simon I, Duke of Lorraine (1076–1138), in what is now France. She was the daughter of Henry III of Leuven and his wife Gertrude of Flanders. After the death of her husband, Adelaide retired to a Cistercian abbey.
+       <div class="float-left">
+         <div class="p-0.5">
+  <a href='https://photos.google.com/share/AF1QipN_VHSeJIoRejfhLw043E9CwFZlvf8_Gws-lkBPm8KBiZ4EDvWrDgH_GoiHIbdhnA?key=ZlptM1kxYllGLVlmMWpPNDZQcE1zY2hNQkRpZkJB&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/ryiDOggjZ99npYW1D3R69gfwertN30Shgf5L-LCccrbjaAcqZlI6_JGHEy4-UKHbC7iVo-QoOGksf600UFwlpKKQwfLZeQ8uleFLr-iKtbtko96fQQAp7FIjyvAmKim54WLWAhQBpw=w2400'class= "p-5"  Id="figure"> </a>
+       It is important to note that she, like many manless women had little choice but to retired to become a nun. During this time, wealthy women were limited to postions of regent (which could actually entilted actually impactful infuluence along with abbess) or nun</p>
+    </div>
+
+  </div>
+    </div>
+        <div class="col">
+
+          <!--Europe-->
+        <h2 class="mb--4"id="Europe During the Middle Ages"> Europe During the Middle Ages</h2>
+
+
+<blockquote> "The Romans had been able to post their laws on boards in public places, confidant that enough literate people existed to read them; far into the Middle Ages, even kings remained illiterate." Uberto Echo </blockquote>
+          <p> Population decline, counterurbanisation, invasion, and movement of peoples, which had begun in Late Antiquity, continued in the Early Middle Ages. The large-scale movements of the Migration Period, including various Germanic peoples, formed new kingdoms in what remained of the Western Roman Empire. In the 7th century, North Africa and the Middle East—once part of the Byzantine Empire—came under the rule of the Umayyad Caliphate, an Islamic empire, after conquest by Muhammad's successors.  </p>
+
+            <p>From the 12th and 13th centuries on, France was at the center (and often originator) of a vibrant cultural production that extended across much of western Europe, including the transition from Romanesque architecture to Gothic architecture and Gothic art; the foundation of medieval universities (such as the universities of Paris (recognized in 1150), Montpellier (1220), Toulouse (1229), and Orleans (1235)) and the so-called "Renaissance of the 12th century"; a growing body of secular vernacular literature (including the chanson de geste, chivalric romance, troubadour and trouvère poetry, etc.)  </p>
+ <div class="float-left">
+   <div class="p-4">
+  <p><a href='https://photos.google.com/share/AF1QipOiNZbUrJ5yGzwgQBbnD__8VXxzzK3P81yg6RpIOCIhZqFcJrsAfMiHshwljCF0LA?key=NGJKXy1Sajg5TGdZNWdGMFpETS02Tl9od1dCUFNB&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/J_2rwnT06KYWaa7WtRol76FtaeNe5_olpz_rMFfe_w6wrlSfpOXLM-0czmzaBFASmeL6-Mb1-0SMnRXlvlMLcCTyPRM9vxXge24REUZ0IKqX1qu7tOc0PL-2Cr0i1c4BqvF6SeT9JA=w2400'width="300px" height="300px padding="1rem" class="castle2"/></a>
+  </div>
+    </div>
+            <p> Throughout the Middle Ages, the place of women in society was often dictated by biblical texts. The writings of the apostle Paul, in particular, emphasised men's authority over women, forbidding women from teaching, and instructing them to remain silent. However, the Virgin Mary was a contrast to this negative image: as the mother of Christ, she was the channel through which Christians might be saved. She was sometimes described as the 'second Eve', as she was seen to have made up for Eve's sins. Throughout the Middle Ages, Mary was seen as the most powerful of all saints, as well as a strong (if paradoxical) model of chastity and motherhood.</p>
+            <p> <blockquote cite="https://wikipedia.com"> </blockquote>“The medievalist has the capacity, and the desire, to harmonize. He believes the planets sing in harmony; why cannot technology also sing?” </blockquote></p>
+            <p>After the fall of the Roman Empire in the 5th century, there emerged no single powerful secular government in the West. There was however a central ecclesiastical power in Rome, the Catholic Church. In this power vacuum, the Church rose to become the dominant power in the West. The Church started expanded in the beginning 10th century, and as secular kingdoms gained power at the same time, there naturally arose the conditions for a power struggle between Church and Kingdom over ultimate authority.
+
+        </div>
+
+              <div class="col">
+
+                <a href='https://photos.google.com/share/AF1QipPL9vuiudUxFtajd-6XB-VrVWrPoCFS0TdcjP-DkDIEAfhuBU8LiGTPN8rxhXfrpQ?key=Z3d2UUpvNklaX2dfd2NsZmJweGFpNXpaNFVRdHFR&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/RnV3l3p1t1zr9DuXx8vEPJhgy53NReqLsc84hqR8UN1eD5ZWjXKdaPaJq6Rz77DNVUita5kMquu6SQgK0Yxb7Wh25YBzNo1zlcZIcJeZBQitHCXNPeqXl02Da0b-you0mWvGTeHtIQ=w2400' id="border" width="500 px" length="500px"class="img-fluid" class="rounded float-left" padding="1rem" alt="Responsive image"></a>
+ <br/ >
+ <hr/ >
+
+
+
+                <h1 class="mb--4" id="Women's Roles"> Women's Roles</h1>
+                <p>Throughout the Middle Ages, the place of women in society was often dictated by biblical texts. The writings of the apostle Paul, in particular, emphasised men's authority over women, forbidding women from teaching, and instructing them to remain silent. However, the Virgin Mary was a contrast to this negative image: as the mother of Christ, she was the channel through which Christians might be saved. She was sometimes described as the 'second Eve', as she was seen to have made up for Eve's sins. Throughout the Middle Ages, Mary was seen as the most powerful of all saints, as well as a strong (if paradoxical) model of chastity and motherhood.</p>
+                <div class="p-3 mb-2 bg-warning text-dark"> <p> <q> Accroding to an schloar historian in the work <em> <i> Middle Ages</em> </i> <cite>Antonia Frasier </cite>, <q>life was hard, but especially for women. </q> Howard Dean <q> it was the <del> worst </del> <ins> best </ins> era in history to study; because it is so different than mordern day.</p> </div>
+              </div>
+
+              <div class="media">
+    <audio src ="http://www.cantatasingersottawa.ca/music/1991_07_leise-rieselt-der-schnee_96.mp3" controls autoplay>
+    <div class="media-body">
+      <h3 class="mb--4" class="mt-0">Hilgard </h3>
+      <p id="music">A musical compostion by Hilgard of Bingen; an influencial woman of her time. </p>
+    </div>
+  </div>
+
+
+
+
+
+        <div class="col">
+          <h2 class="mb--4"> Women's Lives During the Middle Ages</h2>
+        	<p class="text-justify"> According to the <cite British Libary> The Middle Ages</cite> Most people in medieval Europe lived in small rural communities, making their living from the land. Peasant women had many domestic responsibilities, including caring for children, preparing food, and tending livestock. During the busiest times of the year, such as the harvest, women often joined their husbands in the field to bring in the crops. Women often participated in vital cottage industries, such as brewing, baking and manufacturing textiles.Throughout the Middle Ages, the place of women in society was often dictated by biblical texts. The writings of the apostle Paul, in particular, emphasised men's authority over women, forbidding women from teaching, and instructing them to remain silent. However, the Virgin Mary was a contrast to this negative image: as the mother of Christ, she was the channel through which Christians might be saved.  </p>
+        </div>
+        	<div class="col">			 <h1 class="mb--4"> Lecture on Middle Age's women </h1>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vLxv8gcvH78 id="Lecture"" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><video src="https://youtu.be/vLxv8gcvH78" poster="none" width="400"height="300" preload="controls"> <p> A video discussing women in the Middle Ages.</p> </video>
+        </div>
+                <div class="col">
+        		 <h2 class="mb--4" id="famous"> A Selected List of Women with Influence</h2>
+        	    <ul>
+
+        	    <li>Marie de France, writer </li>
+        	    <li>Christine de Pizan, philosopher</li>
+        	    <li>Anna Conmena, historian</li>
+        	    <li> Irene of Athens</li>
+        	    </ul>
+              <p> To learn more about women in the Middle Ages <a href="https://https://www.bl.uk/the-middle-ages/articles/women-in-medieval-society" target=_blank"> Click Here </a> </p>
+
+
+
+<footer id="important_admittance"> To learn more about medieval history visit the Muesum of Medieval History in 1022 Shadowmar Drive, Louisiana 70001 504-831-9324 </footer>
+              </div>
+          </div>
+
+
+      </div>
+
+      <div class="col">
+        <br />
+        <!--Conference-->
+        <h2>Our Conference</h2>
+        <p class="text-center"> Our upcoming Conference January 08, 2019, will discuss our new exhibit. </p>
+        <button type="button" class="btn btn-outline-primary btn-lg d-block mx-auto my-5">Don't Miss Out Register Now </button>
+
+        <h2>Our Partnerships</h2>
+
+    <p>    We have joined forces with many other Insitutes to help create this exhibit. Our biggest support is Harard </p>
+
+
+<!--Start of card-->
+
+    <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src="<"https://lh3.googleusercontent.com/mkqDrCyqRkUWxefYdhSZ0rF1B0VmloVobe6gmZc19zEnUXeODt7FH2kQSi7vl-5_ZKINK1v_SGcPdnTYpX9NHBg_LaW7oBo-vI9Tsd3wSAUeCzJUW-wvMVNHXO2aAPknbGB7SDhKHw=w2400"/100px160/" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title that wraps to a new line</h5>
+          <p class="card-text">Allways wanting food chase mice, or sweet beast ccccccccccccaaaaaaaaaaaaaaatttttttttttttttttssssssssssssssss yet jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser</p>
+        </div>
+      </div>
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src=".../100px160/" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water, .</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div class="card bg-primary text-white text-center p-3">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+          <footer class="blockquote-footer">
+            <small>
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text"> lounge in doorway. Meoooow. Eat grass, throw it back up love me!. Love blinks and purr purr purr purr yawn howl on top of tall thing. Stare out the window kitty poochy. .</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" img src="https://lh3.googleusercontent.com/OPzh4TGgfmdqPTa8auAmpLeicMbyyFcTc5xtIXIxgNKcF3PV9-M1X4YMTSS7ixOTDzxLQW2zxA_tns6BxdFyI3nmA1xdQrKEPk4ZeH1gUJ2A5RYzKvvzDU6l1UOPlKYlHdd3V0NmNQ=w2400">/100px260/" alt="Card image">
+      </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+
+.</p>
+
+</div>
+  </div>
+          </div>
+
+
+
+
+
+
+<!--end of Conference-->
+
+<!--Support Muesum-->
+<h1> Help Support Our Museum </h1>
+<p> We are offering print posters of medieval paintings and images to help support our muesum. Here are a few of of our items. Everything is on sale; our posters were <s>$7.99</s> now are $5.99. Click on a button to see the finer detail of our artisen posters and prints. </p>
+ <a class="button" id="Poster-1"> Poster option </a>
+ <a class="button" id="framing-options"> Framing Options</a>
+<hr/ >
+        <form action="http://wwww.example.com/subscribe.php">
+
+<script>
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+          	<div class="numbertext">1 / 3</div>
+          	<img src="https://images.pexels.com/photos/827513/pexels-photo-827513.jpeg?cs=srgb&dl=baked-baking-berries-827513.jpg&fm=jpg" style="width:100%">
+          	<div class="berry delight">berry delight</div>
+            </div>
+
+            <div class="mySlides fade">
+          	<div class="numbertext">2 / 3</div>
+          	<img src="https://images.pexels.com/photos/806363/pexels-photo-806363.jpeg?cs=srgb&dl=baked-baking-blur-806363.jpg&fm=jpg" style="width:100%">
+          	<div class="Red Velet">Red Velet</div>
+            </div>
+
+            <div class="mySlides fade">
+          	<div class="numbertext">3 / 3</div>
+          	<img src="https://images.pexels.com/photos/132694/pexels-photo-132694.jpeg?cs=srgb&dl=cake-chocolate-chocolate-cake-132694.jpg&fm=jpg" style="width:100%">
+          	<div class="Coco Haven">Coco Haven</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+ </script>
+<!--End of Support-->
+
+<!--Subscribe-->
+        	<p class="text-center"> Subscribe to our email list:
+        	<input type="text" name="email" />
+        	<input type="submit" name="subscribe" value="Subscribe" />
+        </form>
+      </p>
+          </div>
+        </div>
+<!--Subscribe-->
+
+
+        <!--comments-->
+
+      <form action-"https://wwww.example.com/comments.php">
+
+        <p> Sign our muesum Registery </p>
+
+          <textarea name="comments" cols="4" rows="4"> Enter Your name, State, Country </textarea>
+        </form>
+
+        <!--end of comments-->
+
+        <footer>
+       <!-- Wrap Up -->
+      	    <address> <p> <a href="mailto:markie@history.com"> Email for Site </a></p></address>
+      			<p id="author">&copy: By Markie Alicia Chancellor </p>
+
+
+            <!-- Example split danger button -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary">Partnerships</button>
+              <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Oxford University</a>
+                <a class="dropdown-item" href="#">Howard University</a>
+                <a class="dropdown-item" href="#">Scotland</a>
+
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+
+
+
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
