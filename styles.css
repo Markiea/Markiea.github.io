@@ -1,6 +1,10 @@
 /* text center */
 #middleAgesList {text-align: center;}
 #first-letter:first-Letter { font-size: 200%; font-weight: bold;font-family: 'Cinzel Decorative', cursive;}
+  #figure {img
+  width: 100%;
+  display: block;
+}
 body { font-family: Arial, Verdana, sans-serif;}
 #subscribe { text-align: center;}
 h1 ,h2 {text-align: center; color: darkblue; font-family: 'MedievalSharp', cursive;;}
