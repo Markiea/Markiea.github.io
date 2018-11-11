@@ -1,5 +1,6 @@
 # Markiea.github.io
 repository HelloWorld22
+Website Markiea.github.io
 
 My website is about a history museum in Louisana. I am hosting my website on Markiea.github.io, though github. My website has four simple
  Javascript components, alert box with new museum hours, a question about medievel history, and a slideshow which fades in and out. The slideshow allows the user to interact with the graphic by clicking each dot. In addition, I have included different CSS selectors regarding JavaScript componets, as well as additional designs for the site, and HTML.
